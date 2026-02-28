@@ -1,0 +1,157 @@
+[
+  {
+    "question": "What is the output of 'bool([])'?",
+    "options": ["True", "False", "None", "Error"],
+    "correct": "False",
+    "category": "Basics",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which keyword skips a loop iteration?",
+    "options": ["break", "stop", "continue", "pass"],
+    "correct": "continue",
+    "category": "Control Flow",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'MRO' in Python?",
+    "options": [
+      "Method Return Object",
+      "Method Resolution Order",
+      "Multi-class Resource",
+      "Main Reset"
+    ],
+    "correct": "Method Resolution Order",
+    "category": "OOP",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How to convert JSON string to dict?",
+    "options": ["json.load()", "json.dump()", "json.loads()", "json.dumps()"],
+    "correct": "json.loads()",
+    "category": "JSON",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What does 'yield' create?",
+    "options": ["List", "Generator", "Class", "Integer"],
+    "correct": "Generator",
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which is mutable?",
+    "options": ["Tuple", "String", "List", "Int"],
+    "correct": "List",
+    "category": "Data Types",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does 'is' check?",
+    "options": ["Value", "Identity", "Type", "Length"],
+    "correct": "Identity",
+    "category": "Basics",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Primary purpose of 'self'?",
+    "options": [
+      "Global var",
+      "Instance reference",
+      "Static method",
+      "Parent class"
+    ],
+    "correct": "Instance reference",
+    "category": "OOP",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Result of '3 * (1, 2)'?",
+    "options": ["(3, 6)", "(1, 2, 1, 2, 1, 2)", "Error", "None"],
+    "correct": "(1, 2, 1, 2, 1, 2)",
+    "category": "Data Types",
+    "difficulty": "medium"
+  },
+  {
+    "question": "How to handle multiple exceptions?",
+    "options": [
+      "except (T, V):",
+      "except T or V:",
+      "except T, V:",
+      "except [T, V]:"
+    ],
+    "correct": "except (T, V):",
+    "category": "Exceptions",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a lambda function?",
+    "options": ["Recursive", "Anonymous", "Built-in", "Global"],
+    "correct": "Anonymous",
+    "category": "Advanced",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which operator is for exponentiation?",
+    "options": ["^", "**", "//", "%"],
+    "correct": "**",
+    "category": "Basics",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does __init__ do?",
+    "options": ["Destroy", "Initialize", "Create class", "Print"],
+    "correct": "Initialize",
+    "category": "OOP",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Function for list length?",
+    "options": ["size()", "count()", "len()", "length()"],
+    "correct": "len()",
+    "category": "Basics",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is GIL?",
+    "options": ["File lock", "Thread safety mechanism", "Security", "DB lock"],
+    "correct": "Thread safety mechanism",
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How to create a set?",
+    "options": ["[]", "()", "{}", "set()"],
+    "correct": "set()",
+    "category": "Data Types",
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is a decorator?",
+    "options": ["Change types", "Modify behavior", "Import files", "GUI"],
+    "correct": "Modify behavior",
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Result of L.append([1,2]) if L=[0]?",
+    "options": ["[0,1,2]", "[0,[1,2]]", "[1,2,0]", "Error"],
+    "correct": "[0,[1,2]]",
+    "category": "Data Types",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Memory management in Python?",
+    "options": ["GIL", "GC", "Ref Counting", "All"],
+    "correct": "All",
+    "category": "Advanced",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Module for CLI arguments?",
+    "options": ["os", "sys", "argparse", "math"],
+    "correct": "argparse",
+    "category": "JSON",
+    "difficulty": "easy"
+  }
+]
